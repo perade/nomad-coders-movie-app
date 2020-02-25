@@ -4,7 +4,7 @@ function Food ({ name, image }) {
   return (
     <div>
       <h2>I love { name }</h2>
-      <img src={ image } />
+      <img src={ image } alt={name} />
     </div>
   );
 }
@@ -27,7 +27,7 @@ const foods = [
 function App () {
   return (
     <div>
-      {foods.map(dish => <Food name={dish.name} image={dish.image} />)}
+      {foods.map((dish, index) => <Food key={index} name={dish.name} image={dish.image} />)}
     </div>
   );
 }
