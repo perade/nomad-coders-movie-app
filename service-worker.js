@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nomad-coders-movie-app/precache-manifest.e45336421ee14b0e16f5a9c0785b06bf.js"
+  "/nomad-coders-movie-app/precache-manifest.6d2c023443c370f16f389d78f2d54d25.js"
 );
 
 self.addEventListener('message', (event) => {
